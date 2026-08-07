@@ -1,0 +1,140 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Search box */
+.search-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#student-info {
+    font-weight: bold;
+    color: #111827;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 100%;
+    font-weight: bold;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Movie cards */
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.movie-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    background-color: #ddd;
+}
+
+.movie-content {
+    padding: 15px;
+}
+
+.movie-content h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.rating {
+    display: inline-block;
+    background-color: #facc15;
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.movie-content p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Documentation */
+.documentation {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.documentation a {
+    color: #2563eb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #111827;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
