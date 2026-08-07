@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3 | Movie Poster Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Movie Poster Explorer</h1>
+        <p>Search for movies and view posters using a third-party API.</p>
+    </header>
+
+    <main>
+        <section class="search-box">
+            <p id="student-info"></p>
+
+            <form id="movie-form">
+                <label for="movie-input">Enter a movie name:</label>
+                <input type="text" id="movie-input" placeholder="Example: Avatar" required>
+                <button type="submit">Search</button>
+            </form>
+
+            <button id="popular-button" type="button">Show Popular Movies</button>
+        </section>
+
+        <section>
+            <h2>Movie Results</h2>
+            <div id="results" class="movie-grid"></div>
+        </section>
+
+        <section class="documentation">
+            <h2>API Documentation Used</h2>
+            <p>
+                I followed the TMDB API documentation:
+                <a href="https://developer.themoviedb.org/docs/getting-started" target="_blank">
+                    TMDB Getting Started Documentation
+                </a>
+            </p>
+
+            <p>
+                This product uses the TMDB API but is not endorsed or certified by TMDB.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>COMP1073 Client-Side JavaScript | Assignment 3</p>
+    </footer>
+</body>
+
+</html> 
