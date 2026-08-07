@@ -1,14 +1,11 @@
-console.log("Script is connected");
-
 // Assignment 3 - Third-Party APIs
 // Movie Poster Explorer using The Movie Database API
 
-// Dynamically add student name and ID using JavaScript
+//Add student name and ID using JavaScript
 var studentInfo = document.getElementById("student-info");
 studentInfo.textContent = "Student Name: Anmol Bhattarai | Student ID: 200573451";
 
 // TMDB API Key
-// Replace PASTE_YOUR_API_KEY_HERE with your real TMDB API Key v3 auth
 var apiKey = "7bf9acc13aee5e6a35ff23d16e2d29e3";
 
 // Select HTML elements
