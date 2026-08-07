@@ -17,7 +17,6 @@ GitHub Pages
 Live link:
 https://anmolbhattarai12.github.io/Clientsidejavascript-Assignment3/
 
-
 Repository link:
 https://github.com/Anmolbhattarai12/Clientsidejavascript-Assignment3
 
